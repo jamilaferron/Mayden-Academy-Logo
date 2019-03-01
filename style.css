@@ -5,7 +5,6 @@ body {
     margin-left: 45px;
     margin-top: 150px;
     width: 1600px;
-    height: 700px;
 }
 
 .container .text {
@@ -13,45 +12,36 @@ body {
     font-weight: 700;
     font-size: 100px;
     margin-left: -25px;
-    padding: 0;
-    border: 0;
     color: #b1b1b1;
     position: relative;
     display: inline;
 }
 
-.circle {
-    height: 300px;
-    width: 300px;
-    background-color: #ffffff;
-    border-radius: 300px;
-    overflow: hidden;
-    float: left;
-    position: relative;
-    left: 1157px;
-    top: -72px;
-}
-.logo_left {
-    fill:#98b36d;
-}
-.logo_right {
-    fill:#478ead;
-}
-.logo_curve {
-    width:35px;
-    height:300px;
-    fill:#ffffff;
-}
-.logo_center {
-    fill:#e3793b;
-}
-.logo_bottom {
-    fill:#315071;
-}
-
 .mayden, .academy {
     display: inline;
     margin: 10px;
+}
+
+
+
+
+
+.y {
+    height: 23px;
+    width: 18px;
+    top: 115px;
+    left: 13.4px;
+    transform: rotate(23deg);
+    border-bottom-right-radius: 60%;
+}
+
+.y_1 {
+    height: 23px;
+    width: 18px;
+    top: 115px;
+    left: 13.4px;
+    transform: rotate(23deg);
+    border-bottom-right-radius: 60%;
 }
 
 
@@ -78,36 +68,43 @@ body {
 
 .square {
     height: 12px;
-    width: 21px;
-    top: 25px;
+    width: 17px;
+    top: 27px;
     left: 6.1px;
 }
 
 .square1 {
     height: 12px;
-    width: 20.9px;
-    top: 25px;
-    left: 64.5px;
+    width: 16.9px;
+    top: 26px;
+    left: 68.5px;
 }
 
 .square2 {
     height: 10px;
     width: 10px;
-    background-color: #b1b1b1;
-    margin-left: 50px;
     position: absolute;
-    top: 39px;
-    left: -36.4px;
+    top: 28.8px;
+    left: 15.8px;
+    transform: rotate(-23deg);
 }
 
 .square3 {
     height: 10px;
-    width: 17px;
-    background-color: #b1b1b1;
-    margin-left: 50px;
+    width: 10px;
     position: absolute;
-    top: 39px;
-    left: 15.6px;
+    top: 27.8px;
+    left: 65.9px;
+    transform: rotate(23deg);
+}
+
+.square4 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 32.8px;
+    left: 37.4px;
+    transform: rotate(-22deg)
 }
 
 
@@ -165,17 +162,17 @@ body {
 .a {
     height: 12px;
     width: 17.1px;
-    top: 33px;
+    top: 31px;
     left: 26px;
     transform: rotate(18deg);
-    border-top-left-radius: 34%;
+    border-top-left-radius: 61%;
 }
 
 
 .a_2 {
     height: 12px;
-    width: 14.1px;
-    top: 32.1px;
+    width: 13.1px;
+    top: 31.1px;
     left: 32px;
 }
 
@@ -206,3 +203,33 @@ body {
     left: 24px;
 }
 
+
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 300px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    left: 1157px;
+    top: -72px;
+}
+.logo_left {
+    fill:#98b36d;
+}
+.logo_right {
+    fill:#478ead;
+}
+.logo_curve {
+    width:35px;
+    height:300px;
+    fill:#ffffff;
+}
+.logo_center {
+    fill:#e3793b;
+}
+.logo_bottom {
+    fill:#315071;
+}
